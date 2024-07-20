@@ -1,0 +1,160 @@
+.header {
+    height: 10vh;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-li {
+    margin-right: 50px;
+}
+
+.header-nav-li-a {
+    text-decoration: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-nav__li-button {
+    border: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+    height: 80vh;
+}
+
+.users__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.users__heading {
+    text-align: center;
+    color: #00001C;
+    font-size: 15px;
+}
+
+.users-table {
+    margin: 30px auto;
+    width: 60%;
+    text-align: left;
+}
+
+.users__inner {
+    width: 100%;
+}
+
+.users__row {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.users__header {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: #00001C;
+}
+
+.users__header-div {
+    margin-right: 20px;
+}
+
+.users__item {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #00001C;
+    font-weight: bold;
+}
+
+.users__item-div-name {
+    line-height: 60%;
+    width: 50%;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.users__item-div-email {
+    line-height: 60%;
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.users__itme-a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #00001C;
+}
+
+.users__itme-p {
+    font-size: 12px;
+}
+
+.paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ここまでがボディ */
+
+.footer {
+    height: 10vh;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.footer__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-utilities {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

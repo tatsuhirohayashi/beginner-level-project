@@ -1,0 +1,165 @@
+.header {
+    height: 10vh;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-li {
+    margin-right: 50px;
+}
+
+.header-nav-li-a {
+    text-decoration: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-nav__li-button {
+    border: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+    height: 80vh;
+}
+
+.user__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.user__heading {
+    text-align: center;
+    color: #00001C;
+    font-size: 15px;
+}
+
+.user-table {
+    margin: 30px auto;
+    width: 100%;
+    text-align: left;
+}
+
+.user__inner {
+    width: 100%;
+}
+
+.user__row {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.user__header {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: #00001C;
+}
+
+.user__header-div {
+    margin-right: 20px;
+}
+
+.user__item {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #00001C;
+    font-weight: bold;
+}
+
+.user__item-div-date {
+    line-height: 80%;
+    width: 17.6%;
+}
+
+.user__item-div-start-work {
+    line-height: 80%;
+    width: 20%;
+}
+
+.user__item-div-end-work {
+    line-height: 80%;
+    width: 20.2%;
+}
+
+.user__item-div-break-duration {
+    line-height: 80%;
+    width: 20%;
+}
+
+.user__item-div-work-duration {
+    line-height: 80%;
+    width: 18%;
+}
+
+.user__itme-p {
+    font-size: 12px;
+}
+
+.paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ここまでがボディ */
+
+.footer {
+    height: 10vh;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.footer__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-utilities {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

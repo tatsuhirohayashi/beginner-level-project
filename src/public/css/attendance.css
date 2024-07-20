@@ -1,0 +1,194 @@
+.header {
+    height: 10vh;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-li {
+    margin-right: 50px;
+}
+
+.header-nav-li-a {
+    text-decoration: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-nav__li-button {
+    border: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+    height: 80vh;
+}
+
+.attendance__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.attendance__heading {
+    text-align: center;
+    color: #00001C;
+    font-size: 15px;
+}
+
+.date-pagination-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date-pagination {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.date-pagination-button {
+    background-color: #ffffff;
+    color: #007bff;
+    border: bolder;
+    padding: 5px 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.date-pagination-button:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+}
+
+.date-pagination-button:hover:not(:disabled) {
+    background-color: #ffffff;
+}
+
+.worktime-table {
+    margin: 30px auto;
+    width: 100%;
+    text-align: left;
+}
+
+.worktime__inner {
+    width: 100%;
+}
+
+.worktime__row {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.worktime__header {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: #00001C;
+}
+
+.worktime__item {
+    padding: 8px 10px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #00001C;
+    font-weight: bold;
+}
+
+.worktime__item-div-name {
+    line-height: 80%;
+    width: 18%;
+}
+
+.worktime__item-div-start-work {
+    line-height: 80%;
+    width: 20.5%;
+}
+
+.worktime__item-div-end-work {
+    line-height: 80%;
+    width: 20.9%;
+}
+
+.worktime__item-div-break-duration {
+    line-height: 80%;
+    width: 20.5%;
+}
+
+.worktime__itme-a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #00001C;
+}
+
+.worktime__itme-p {
+    font-size: 12px;
+}
+
+.paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ここまでがボディ */
+
+.footer {
+    height: 10vh;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.footer__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-utilities {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

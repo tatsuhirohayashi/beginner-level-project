@@ -1,0 +1,175 @@
+.header {
+    height: 10vh;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-li {
+    margin-right: 50px;
+}
+
+.header-nav-li-a {
+    text-decoration: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-nav__li-button {
+    border: none;
+    color: #00001C;
+    font-weight: bold;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+    height: 80vh;
+}
+
+.index__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.index__heading {
+    text-align: center;
+    color: #00001C;
+    font-size: 15px;
+}
+
+.index__button {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.index__button-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.index__button-work-start {
+    width: 47%;
+    height: 25%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.form-work-start-button {
+    border: none;
+    background: #ffffff;
+    padding: 80px 160px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.index__button-work-end {
+    width: 47%;
+    height: 25%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.form-work-end-button {
+    border: none;
+    background: #ffffff;
+    padding: 80px 160px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.index__button-break {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.index__button-break-start {
+    width: 47%;
+    height: 25%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.form-break-start-button {
+    border: none;
+    background: #ffffff;
+    padding: 80px 160px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.index__button-break-end {
+    width: 47%;
+    height: 25%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.form-break-end-button {
+    border: none;
+    background: #ffffff;
+    padding: 80px 160px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* 以下はボディのボタン部分の操作 */
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ここまでがボディ */
+
+.footer {
+    height: 10vh;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.footer__logo {
+    color: #00001C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-utilities {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
