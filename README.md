@@ -1,76 +1,76 @@
-#アプリケーション名
+# アプリケーション名
 
 勤怠管理システム（Atte（アット））
 
-概要説明（どんなアプリか）
-*勤怠管理システムであり、打刻ページで勤務の開始終了時刻や勤務時間、休憩時間を管理し、日付別やユーザーごとに勤怠の状況を確認できるアプリ
+概要説明（どんなアプリか）<br>
+*勤怠管理システムであり、打刻ページで勤務の開始終了時刻や勤務時間、休憩時間を管理し、日付別やユーザーごとに勤怠の状況を確認できるアプリ<br>
 
-//トップ画面の画像
+*![alt text](初級模擬案件トップ画面.png)
 
-##作成した目的
+## 作成した目的
 
-概要説明（なんで作成したか）
-*とある企業から人事評価のために勤怠管理システムを作成して欲しいと依頼があったため
+概要説明（なんで作成したか）<br>
+*とある企業から人事評価のために勤怠管理システムを作成して欲しいと依頼があったため<br>
 
-##アプリケーションURL
+## アプリケーションURL
 
 //URL
 //ログインなどがあれば、注意事項など
 
-##機能一覧
+## 機能一覧
 
-*・会員登録機能
-*・ログイン機能
-*・ログアウト機能
-*・メールでの本人確認機能
-*・勤務開始機能
-*・勤務終了機能
-*・休憩開始機能
-*・休憩終了機能
-*・日付別勤怠情報取得機能
-*・ユーザー一覧情報取得機能
-*・ユーザーごとの勤怠情報取得機能
-*・ページネーション機能
+*・会員登録機能<br>
+*・ログイン機能<br>
+*・ログアウト機能<br>
+*・メールでの本人確認機能<br>
+*・勤務開始機能<br>
+*・勤務終了機能<br>
+*・休憩開始機能<br>
+*・休憩終了機能<br>
+*・日付別勤怠情報取得機能<br>
+*・ユーザー一覧情報取得機能<br>
+*・ユーザーごとの勤怠情報取得機能<br>
+*・ページネーション機能<br>
 
-##使用技術（実行環境）
+## 使用技術（実行環境）
 
-*・PHP 7.4.9
-*・Laravel 8
-*・MySQL 8.0.26
+*・PHP 7.4.9<br>
+*・Laravel 8<br>
+*・MySQL 8.0.26<br>
 
-##テーブル設計
+## テーブル設計
 
-*![alt text](image-1.png)
+*![alt text](初級模擬案件テーブル設計図-2.png)
 
-##ER図
+## ER図
 
 *![alt text](初級模擬案件ER図.png)
 
-#環境構築
+# 環境構築
 
-*Dockerビルド
-*1.git clone リンク
-*2.DockerDesktopアプリを立ち上げる
-*3.docker-compose up -d --build
+*Dockerビルド<br>
+*1.git clone リンク<br>
+*2.DockerDesktopアプリを立ち上げる<br>
+*3.docker-compose up -d --build<br>
 
 *MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください。
 
 *Laravel環境構築
 
-*1.docker-compose exec php bash
-*2.composer install
-*3.env.exampleファイルから.envを作成し、環境変数を変更
-*4.php artisan key:generate
-*5.php artisan migrate
-*+α.php artisan db:seed（※ダミーデータを入れたい場合はこのコマンドを打ってください。）
+*1.docker-compose exec php bash<br>
+*2.composer install<br>
+*3.env.exampleファイルから.envを作成し、環境変数を変更<br>
+*4.php artisan key:generate<br>
+*5.php artisan migrate<br>
+*+α.php artisan db:seed（※ダミーデータを入れたい場合はこのコマンドを打ってください。）<br>
 
-##URL
+## URL
 
-*開発環境:http://localhost/
-*phpMyAdmin:http://localhost:8080/
-*MailHog:http://localhost:8025/
+*開発環境:http://localhost/<br>
+*phpMyAdmin:http://localhost:8080/<br>
+*MailHog:http://localhost:8025/<br>
 
-##アカウントの種類（テストユーザー）
+## アカウントの種類（テストユーザー）
 
-*メールアドレス：test@example1.com
-*パスワード：testtesttest
+*メールアドレス：test@example1.com<br>
+*パスワード：testtesttest<br>
